@@ -64,6 +64,7 @@ class Experience extends Component {
 
     return (
       <section id="resume" className="pb-5">
+        <hr/>
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
