@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "AKIKO TERUYA",
-      "titles": [ "Architect", "Renderer", "Arquitecta", "Renderista" ],
+      "titles": [ "Architect", "Renderer", "Designer", "Arquitecta", "Renderista", "Diseñadora" ],
       "social": [
         {
           "name": "instagram",
@@ -14,13 +14,23 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "Photoshop",
+          "filename": "photoshop",
           "level": "95"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
+          "name": "Autocad",
+          "filename": "autocad",
+          "level": "95"
+        },
+        {
+          "name": "Sketchup",
+          "filename": "sketchup",
+          "level": "95"
+        },
+        {
+          "name": "Lumion",
+          "filename": "lumion",
           "level": "95"
         }
       ]

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
@@ -9,18 +10,17 @@ class Skills extends Component {
           <li className="list-inline-item mx-3" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
+                <img src={require(`../images/skills_icons/${skills.filename}.png`)} style={{width: "60px"}}/>
                   <p
                     className="text-center"
                     style={{
-                      fontSize: "30%",
+                      fontSize: "14px",
                       marginTop: "4px",
-                      "font-family": "Raleway",
+                      fontFamily: "Raleway",
                     }}
                   >
                     {skills.name}
                   </p>
-                </i>
               </div>
             </span>
           </li>

@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import {sketchupMake} from '@iconify-icons/file-icons';
 
 import profile from "../images/profile.png";
 
@@ -28,10 +25,6 @@ class About extends Component {
                     height="250px"
                     src={profile}
                     alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={sketchupMake}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
